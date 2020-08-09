@@ -10,7 +10,7 @@
  * Released under the MIT license. See LICENSE file for details.
  */
 var mqtt = require('mqtt');
-var mqttbroker = 'localhost:1883';
+var mqttbroker = '54.187.212.242:1883';
 var mqttclient = mqtt.connect('mqtt://' + mqttbroker);
 
 var socket = require('socket.io');
